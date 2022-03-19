@@ -1,0 +1,15 @@
+<nav class="py-3 text-left">
+  <div>
+    <strong>Recent</strong>
+    •
+    <a href="/feed.xml" title="RSS" class="">RSS</a>
+  </div>
+</nav>
+
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  {% for post in site.posts limit: 6 %}
+    <div class="col-12 mb-3">
+      {% include post-card.html %}
+    </div>
+  {% endfor %}
+</div>

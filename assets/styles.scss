@@ -1,0 +1,60 @@
+---
+---
+@import url('https://unpkg.com/primer/build/build.css');
+@import 'highlight-syntax';
+
+.emoji {
+  width: 18px;
+  height: auto;
+  vertical-align: middle;
+}
+
+.article {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+
+  h1, h2, h3, h4,
+  .highlight {
+    margin-bottom: 16px;
+  }
+
+  blockquote {
+    color: #6a737d;
+    border-left: 2px solid #959da5;
+    padding-left: 16px;
+    margin-bottom: 16px;
+  }
+
+  ul, ol {
+    padding-left: 32px;
+    margin-bottom: 16px;
+  }
+
+  li ul, li ol {
+    padding-left: 16px;
+    margin-bottom: 0px;
+  }
+
+  ul li, ol li {
+    margin-bottom: 1%;
+  }
+
+  hr {
+    border: 0;
+    height: auto;
+    text-align: center;
+  }
+
+  hr::after {
+    content: "\2042";
+    display: block;
+  }
+
+  ul#markdown-toc li {
+    margin-bottom: 0;
+  }
+}
+
+.min-height-full {
+  min-height: 100vh;
+}
