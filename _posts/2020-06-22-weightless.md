@@ -1,6 +1,6 @@
 ---
 title: Capitalism without capital
-permalink: /weightless
+permalink: /capitalism-without-capital
 summary: An overview of intangibles
 published: true
 ---
