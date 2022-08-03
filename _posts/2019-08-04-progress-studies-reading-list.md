@@ -1,5 +1,5 @@
 ---
-title: Progress studies reading list
+title: Progress Studies reading list
 summary: Book recommendations for Progress Studies
 permalink: /progress
 published: true

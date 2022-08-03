@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Books of the year
-permalink: 2020-in-books
-summary: My favourite books I read in 2020
+title: Book Highlights 2020
+permalink: 2020-book-highlights
+# summary: 
 published: true
 ---
 **Nonfiction**
