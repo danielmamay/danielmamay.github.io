@@ -2,7 +2,7 @@
 title: Capitalism Without Capital
 permalink: /capitalism-without-capital
 # summary: 
-published: true
+published: false
 ---
 The modern economy has seen a marked shift in the GDP and labour share involved in the production of manufactured goods, such as food, vehicles, and electronics, towards labour-intensive service sectors like healthcare, education, and professional services. Baumol famously identified the cause as the higher productivity growth of goods-production relative to services: companies can invent machines to decrease the amount of people needed to produce the same number of mobile phones, whereas hospitals and schools may still require a similar number of doctors or teachers to achieve the same quality of outcomes.
 
