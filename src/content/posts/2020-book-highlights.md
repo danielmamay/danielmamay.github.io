@@ -1,9 +1,7 @@
 ---
-layout: post
 title: Book Highlights 2020
-permalink: 2020-book-highlights
-# summary: 
 published: true
+date: 2020-12-18
 ---
 **Nonfiction**
 

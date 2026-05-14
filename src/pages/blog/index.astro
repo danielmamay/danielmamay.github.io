@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Header from '../../components/Header.astro';
+
+const posts = await getCollection('posts', ({ data }) => data.published !== false);
+posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+<Base title="Blog">
+  <Header />
+  <h1 class="text-2xl font-semibold tracking-tight mb-8">Blog</h1>
+  <ul class="space-y-3">
+    {posts.map(post => {
+      const permalink = post.slug;
+      const date = post.data.date.toLocaleDateString('en-GB', { month: 'short', year: 'numeric' });
+      return (
+        <li>
+          <a href={`/${permalink}`} class="flex items-baseline justify-between group">
+            <span class="text-gray-900 group-hover:text-gray-500 transition-colors">
+              {post.data.title}
+            </span>
+            <span class="text-sm text-gray-400 ml-4 shrink-0">{date}</span>
+          </a>
+        </li>
+      );
+    })}
+  </ul>
+</Base>
